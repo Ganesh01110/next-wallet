@@ -9,5 +9,6 @@
     },
     "exports": {
         "./client": "./index.ts"
-    }
+    },
+    "@repo/db": "*"
 }
