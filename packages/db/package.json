@@ -10,5 +10,8 @@
     "exports": {
         "./client": "./index.ts"
     },
-    "@repo/db": "*"
+    "@repo/db": "*",
+    "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+}
 }
